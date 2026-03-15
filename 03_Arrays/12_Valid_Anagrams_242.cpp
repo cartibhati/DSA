@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool isAnagram(string s, string t) {
+    bool isAnagram(string s, string t) { 
         sort(s.begin(),s.end());
         unordered_map<char,int>mp1;
         unordered_map<char,int>mp2;
