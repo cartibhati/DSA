@@ -5,7 +5,7 @@ public:
 
         for (char c : s)
             result ^= c;
-
+ 
         for (char c : t)
             result ^= c;
 
